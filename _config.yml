@@ -1,7 +1,4 @@
 # Site
-title:              Erint Labs Science
-bio:                'Ukrainian Biotechnology enthusiast group.'
-description:        "Ukrainian Biotechnology enthusiast group."
 reading_time:       true
 words_per_minute:   200
 logo:               '/assets/img/logo.svg'
@@ -73,6 +70,8 @@ jekyll-mentions:
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
 
+# Setting language flags
+# https://sylvain.durand.tf/making-jekyll-multilingual/ refer to this
 defaults:
   -
     scope:
@@ -94,3 +93,23 @@ defaults:
       path: ru
     values:
       lang: ru
+
+# Translations table
+# TODO: is there a way to make it a separate file pretty please?
+t:
+  en:
+    title:            'Erint Labs Science'
+    bio:              'Ukrainian Biotechnology enthusiast group.'
+    description:      'Ukrainian Biotechnology enthusiast group.'
+  uk:
+    title:            '~'
+    bio:              '~'
+    description:      '~'
+  fr:
+    title:            'Erint Labs Science'
+    bio:              'La grouppe enthusiaste de Biotechnologie Ukrainienne.'
+    description:      'La grouppe enthusiaste de Biotechnologie Ukrainienne.'
+  ru:
+    title:            '~'
+    bio:              '~'
+    description:      '~'
