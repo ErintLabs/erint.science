@@ -6,6 +6,9 @@ background:         '/assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                http://erint.science/
+# For local debugging
+#url:                http://localhost:4000/
+email:              admin@erint.io
 
 # Jekyll
 permalink:          /:title/
@@ -101,15 +104,47 @@ t:
     title:            'Erint Labs Science'
     bio:              'Ukrainian Biotechnology enthusiast group.'
     description:      'Ukrainian Biotechnology enthusiast group.'
+    about:            'About us'
+    posts:            'Blog'
+    projects:         'Projects'
+    openmenu:         'Open Menu'
+    home:             'Home'
+    email:            'Email'
+    allposts:         'All Posts'
+    alltags:          'All Tags'
   uk:
     title:            '~'
     bio:              '~'
     description:      '~'
+    about:            '~'
+    posts:            '~'
+    projects:         '~'
+    openmenu:         '~'
+    home:             '~'
+    email:            '~'
+    allposts:         '~'
+    alltags:          '~'
   fr:
     title:            'Erint Labs Science'
     bio:              'La grouppe enthusiaste de Biotechnologie Ukrainienne.'
     description:      'La grouppe enthusiaste de Biotechnologie Ukrainienne.'
+    about:            'À propos'
+    posts:            'Le blog'
+    projects:         'Les projets'
+    openmenu:         'Ouvrir le menu'
+    home:             '~'
+    email:            'Email'
+    allposts:         '~'
+    alltags:          '~'
   ru:
     title:            '~'
     bio:              '~'
     description:      '~'
+    about:            '~'
+    posts:            '~'
+    projects:         '~'
+    openmenu:         '~'
+    home:             '~'
+    email:            '~'
+    allposts:         '~'
+    alltags:          '~'
